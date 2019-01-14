@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> HOME </title>
+	<link rel="stylesheet" type="text/css" href="homestyle.css" />
+</head>
+<body>
+
+<center>
+<br/>
+<br/>
+<hr color="brown"/>
+<font>
+        <h1 id="h3">
+            <marquee>Silence tells everything .&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Listen to everyone but do what your heart says .&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;If you don't understand my silence you don't understand my feelings .&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Friendship is nothing without understanding .</marquee>
+        </h1>
+    </font>	
+<table width="100%" id="z1">
+<tr>
+<th><a class="a1" href="aboutme.html">About me</th>
+<th><a class="a1" href="mypictures.html">My Pictures</th>
+<th><a class="a1" href="family.html">My Family</th>
+<th><a class="a1" href="address.html">My address</th>
+<th><a class="a1" href="https://www.facebook.com/aayesha.mohan">My Facebook Profile</th>
+<th><a class="a1" href="https://twitter.com/radhemohan1720">My Twitter Profile</th>
+</tr>
+</table>
+
+<br/>
+<br/>
+<br/>
+<table width="100%">
+<tr>
+<th width="60%"><div><img class="mySlides"src="a26.jpg"/>
+  <img class="mySlides" src="a1.jpg"/>
+  <img class="mySlides" src="a27.jpg"/>
+  <img class="mySlides" src="a2.jpg"/>
+  <img class="mySlides" src="a23.jpg"/>
+</div></th>
+<th><form action="https://docs.google.com/forms/d/1vs01D9OWl99Oivtjuu_WAmzuqE938gjVUs8bDSQi17Q/edit">
+<span class="h4" >If you want to give<br/>me any<br/>message then<br/></span>
+<input id="z2" type="submit" value="Click Here">
+</form></th>
+</tr>
+</table>
+
+<script>
+var myIndex = 0;
+carousel();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000);
+}
+</script>
+<br/><br/>
+
+<div id="d3" width="90%">
+<h1 id="t1"><span id="h3">Hello world !</span><br/><br/>My name is Mohan Kumar Sah.I am 19 years old.I am a student,currently studing in the Department of Computer Science And Engineering at Tezpur University.I am not a professional web designer but I have tried to develop my own website.</br></h1>
+</div>
+
+<div id="d2">
+<table width="90%">
+<tr>
+<th><span class="h1">Contact</span><br/><span class="h4">Email id:-radhemohan1001001@gmail.com</span><br/><br/></th>
+</tr>
+</table>
+</div>
+
+</center>
+
+<hr color="brown"/>
+<br/><br/>
+</body>
+</html>

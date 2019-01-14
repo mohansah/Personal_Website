@@ -1,0 +1,59 @@
+h2
+{
+	text-align:center;
+	font-size:80px;
+	color:blue;
+	text-shadow:8px 5px 15px red;
+}
+
+p
+{
+	font-size:30px;
+	color:blue;
+	text-shadow:5px 5px 10px red;
+}
+
+img
+{
+	border:2px groove brown;
+	border-radius:5px;
+}
+
+img:hover
+{
+	border:5px groove brown;
+	border-radius:10px;
+}
+
+body
+	{
+	background-image:url("Rubiks-3D-Wallpaper-HD-Free-For-Desktop-High-Quality.png");
+	background-attachment:fixed;
+	}
+
+#h3
+{
+	font-size:50px;
+	color:black;
+	text-shadow:5px 5px 10px brown;
+	
+}
+
+.i1:hover {
+    width: 350px;
+    height: 300px;
+    -webkit-transform: rotate(90deg); 
+    transform: rotate(90deg);
+}
+
+.i2:hover {
+    width: 300px;
+    height: 350px;
+    -webkit-transform: rotate(-90deg); 
+    transform: rotate(-90deg);
+}
+
+.i3:hover {
+    width: 350px;
+    height: 300px;
+}

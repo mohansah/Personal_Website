@@ -1,0 +1,36 @@
+h1
+{
+	text-align:center;
+	font-size:80px;
+	color:blue;
+	text-shadow:8px 5px 15px red;
+	
+}
+
+h3
+{
+	font-size:40px;
+	color:blue;
+	text-shadow:5px 5px 10px red;
+}
+
+p
+{
+	font-size:30px;
+	color:orange;
+	text-shadow:5px 5px 10px red;
+}
+
+body
+	{
+	background-image:url("Rubiks-3D-Wallpaper-HD-Free-For-Desktop-High-Quality.png");
+	background-attachment:fixed;
+	}
+
+#h3
+{
+	font-size:50px;
+	color:black;
+	text-shadow:5px 5px 10px brown;
+	
+}
